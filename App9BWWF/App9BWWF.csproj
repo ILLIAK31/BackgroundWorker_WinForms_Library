@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="ClassBackgroundWorker">
+      <HintPath>..\..\ClassBackgroundWorker\ClassBackgroundWorker\bin\Debug\net5.0\ClassBackgroundWorker.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
